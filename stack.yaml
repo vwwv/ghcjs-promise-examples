@@ -1,0 +1,28 @@
+resolver: nightly-2016-10-25
+
+packages:
+- location: '.'
+# Servant-client support for GHCJS (not yet in upstream)
+- location:
+    git:    https://github.com/vwwv/ghcjs-promise.git
+    commit: cfdbf2940dc52d02b150b8de10175ed2de4c83ec
+
+compiler: ghcjs-0.2.1.820161025_ghc-8.0.1
+compiler-check: match-exact  
+
+setup-info:
+  ghcjs:
+    source:
+      ghcjs-0.2.1.820161025_ghc-8.0.1:
+          url: http://tolysz.org/ghcjs/untested/ghc-8.0-2016-10-25-nightly-2016-10-25-820161025.tar.gz
+          sha1: ca05f23ab6af89803a9fa8ce7241ebdd2eee7dae
+
+
+extra-deps:
+- ghcjs-promise-0.1.0.0
+
+# Override default flag values for local packages and extra-deps
+flags: {}
+
+# Extra package databases containing global packages
+extra-package-dbs: []

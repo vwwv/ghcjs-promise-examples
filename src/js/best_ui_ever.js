@@ -3,9 +3,9 @@
 function startBestEverUI(compute){
   
   alert( ' Computing the meaning of the live,'
-  	   + ' please take a sit,'
-  	   + ' this gonna take a while'
-  	   );
+       + ' please take a sit,'
+       + ' this gonna take a while'
+       );
 
   compute.then(
     function(meaning){

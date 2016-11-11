@@ -5,7 +5,7 @@ packages:
 # Servant-client support for GHCJS (not yet in upstream)
 - location:
     git:    https://github.com/vwwv/ghcjs-promise.git
-    commit: cfdbf2940dc52d02b150b8de10175ed2de4c83ec
+    commit: 1ba291748ddc12eb6699c9fd1e1d2278997e5d8b
 
 compiler: ghcjs-0.2.1.820161025_ghc-8.0.1
 compiler-check: match-exact  
@@ -19,7 +19,7 @@ setup-info:
 
 
 extra-deps:
-- ghcjs-promise-0.1.0.0
+- ghcjs-promise-0.1.0.3
 
 # Override default flag values for local packages and extra-deps
 flags: {}

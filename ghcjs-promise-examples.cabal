@@ -36,46 +36,6 @@ executable meaning-life
   default-language: Haskell2010
 
 
-executable example1
-  hs-source-dirs:      src
-  main-is:             Example1.hs
-
-
-  build-depends:       base >= 4.7 && < 5
-                     , ghcjs-base
-                     , ghcjs-promise
-                     , protolude
-
-  default-extensions:  BangPatterns
-                     , BangPatterns
-                     , BinaryLiterals
-                     , CPP
-                     , DeriveGeneric
-                     , DisambiguateRecordFields
-                     , DefaultSignatures
-                     , EmptyDataDecls
-                     , FlexibleContexts
-                     , FlexibleInstances
-                     , FunctionalDependencies
-                     , NoImplicitPrelude
-                     , GADTs
-                     , LambdaCase
-                     , MonadComprehensions
-                     , MultiParamTypeClasses
-                     , MultiWayIf
-                     , OverloadedStrings
-                     , PatternSynonyms
-                     , RankNTypes
-                     , RecordWildCards
-                     , RecursiveDo
-                     , ScopedTypeVariables
-                     , StandaloneDeriving
-                     , TupleSections
-                     , TypeFamilies
-                     , TypeOperators
-
-  default-language: Haskell2010
-
 
 
 
